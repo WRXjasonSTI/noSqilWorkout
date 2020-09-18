@@ -4,7 +4,6 @@ const mongoose = require("mongoose");
 // Morgan the logger middleware bro
 const morgan = require("morgan");
 
-
 const PORT = process.env.PORT || 9000;
 const app = express();
 
